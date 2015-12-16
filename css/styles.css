@@ -1,0 +1,47 @@
+
+.container {
+   position: relative;
+   margin: auto;
+   text-align: center;
+   width:100%;
+
+}
+
+header {
+
+  background-color: black;
+  font-family: Arvo, serif;
+}
+
+nav {
+  display: flex;
+  flex-direction : row-reverse;
+  text-align: top;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ 
+ #jumbotron {
+background-image: url('../images/hero-image.jpg');
+height: 600px;
+color: white;
+}
+
+#jumbotron h1 {
+font-family: Arvo, serif;
+font-weight: 400;
+font-size: 45px;
+
+}
+
+#jumbotron p {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
